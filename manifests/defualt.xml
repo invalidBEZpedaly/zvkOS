@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aosp" fetch="https://android.googlesource.com/" />
+    
+    <default revision="android-11.0.0_r36" remote="aosp" />
+    
+    <project path="platform/manifest" name="android/platform_manifest" />
+    <project path="platform/system/core" name="android/platform_system_core" />
+    <project path="platform/system/bt" name="android/platform_system_bt" />
+    <project path="platform/system/netd" name="android/platform_system_netd" />
+    <project path="platform/frameworks/base" name="android/platform_frameworks_base" />
+    <project path="platform/packages/apps/Settings" name="android/platform_packages_apps_Settings" />
+    <project path="platform/packages/apps/Contacts" name="android/platform_packages_apps_Contacts" />
+    <project path="platform/packages/apps/ContactsProvider" name="android/platform_packages_apps_ContactsProvider" />
+    
+    <project path="platform/hardware/libhardware" name="android/platform_hardware_libhardware" />
+    <project path="platform/hardware/google/pixel" name="android/platform_hardware_google_pixel" />
+    <project path="platform/hardware/interfaces" name="android/platform_hardware_interfaces" />
+    
+    <project path="platform/kernel/common" name="android/platform_kernel_common" />
+    <project path="platform/kernel/x86" name="android/platform_kernel_x86" />
+
+    <project path="platform/vendor" name="android/platform_vendor" />
+</manifest>
