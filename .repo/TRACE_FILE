@@ -1,0 +1,66 @@
+PID: 30334 START: 1727787803614177024 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, file:///mnt/d/zvkOS/manifests, -b, default.xml [sid=repo-20241001T130305Z-P0000767e/repo-20241001T130323Z-P0000767e]
+
+PID: 30334 START: 1727787803625309696 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/mnt/d/zvkOS/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 30334 END: 1727787803740447232 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/mnt/d/zvkOS/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 30334 START: 1727787803780578560 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 30334 END: 1727787803796190464 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 30334 START: 1727787803799502080 :: parsing /root/.gitconfig
+
+PID: 30334 END: 1727787803800969472 :: parsing /root/.gitconfig
+
+PID: 30334 START: 1727787803802232576 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 30334 END: 1727787803822422528 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 30334 START: 1727787803823762944 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 30334 END: 1727787803843479296 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 30334 START: 1727787803845064192 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 30334 END: 1727787803865804544 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 30334 START: 1727787803867356416 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'file:///mnt/d/zvkOS/manifests'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all remote.origin.url file:///mnt/d/zvkOS/manifests 1>| 2>|
+
+PID: 30334 END: 1727787803888444672 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'file:///mnt/d/zvkOS/manifests'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all remote.origin.url file:///mnt/d/zvkOS/manifests 1>| 2>|
+
+PID: 30334 START: 1727787803889814016 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 30334 END: 1727787803910272768 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 30334 START: 1727787803911707648 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 30334 END: 1727787803932894720 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 30334 START: 1727787803937339904 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 30334 END: 1727787803956318464 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 30334 START: 1727787803957687552 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 30334 END: 1727787803977249024 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--file', '/mnt/d/zvkOS/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /mnt/d/zvkOS/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 30334 START: 1727787803986291200 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/default.xml:refs/remotes/origin/default.xml', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/mnt/d/zvkOS/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/default.xml:refs/remotes/origin/default.xml +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 30334 END: 1727787804017424384 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/default.xml:refs/remotes/origin/default.xml', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/mnt/d/zvkOS/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/default.xml:refs/remotes/origin/default.xml +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 30334 START: 1727787804018957568 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 30334 END: 1727787804031822336 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 30334 START: 1727787808042209280 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/default.xml:refs/remotes/origin/default.xml', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/mnt/d/zvkOS/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/default.xml:refs/remotes/origin/default.xml +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 30334 END: 1727787808071243264 :git command /mnt/d/zvkOS/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/default.xml:refs/remotes/origin/default.xml', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/mnt/d/zvkOS/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/default.xml:refs/remotes/origin/default.xml +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 30334 END: 1727787808101329664 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, file:///mnt/d/zvkOS/manifests, -b, default.xml [sid=repo-20241001T130305Z-P0000767e/repo-20241001T130323Z-P0000767e]
+
